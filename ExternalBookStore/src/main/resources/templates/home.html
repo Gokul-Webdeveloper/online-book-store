@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Book Store</title>
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f8f9fa;
+      }
+
+      .navbar {
+        background-color: #003366;
+      }
+
+      .navbar-brand, .nav-link {
+        color: #ffffff !important;
+      }
+
+      .navbar-toggler-icon {
+        background-color: #ffffff;
+      }
+
+      .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-weight: 500;
+      }
+
+      .navbar-nav .nav-link:hover {
+        background-color: #00509e;
+        border-radius: 4px;
+      }
+
+      .container h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #212529;
+      }
+
+      .container h6 {
+        font-size: 1.125rem;
+        color: #6c757d;
+      }
+
+      .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+      }
+
+      .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+      }
+
+      .my-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Book Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="available_books">Available Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="my_books">My Books</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a class="btn btn-primary" href="book_register">New Book Register</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+     <div class="container text-center my-5 pt-5">
+      <h1>WELCOME TO NEW BOOK STORE</h1>
+      <h6 class="my-4">This project allows users to manage a personal collection of books. Users can easily add new books, edit existing book details, or delete books from their list. Additionally, books can be added to a personalized 'My Books' list for better organization. The system is simple and intuitive, making it easy to maintain and track a growing book collection. With real-time updates, users can manage their library efficiently and keep it up to date.</h6>
+      <br>
+   		<img src="/images/ef.png" width="400px"/>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
