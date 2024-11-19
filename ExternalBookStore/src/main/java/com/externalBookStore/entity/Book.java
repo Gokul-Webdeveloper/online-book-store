@@ -18,15 +18,13 @@ public class Book {
 	@Transient	
 	private String source;
 	public Book(int id, String name, String author, String price) {
-		super();
-		this.id = id;
+ 		this.id = id;
 		this.name = name;
 		this.author = author;
 		this.price = price;
 	}
 	public Book() {
-		super();
-		// TODO Auto-generated constructor stub
+ 		// TODO Auto-generated constructor stub
 	}
 	public int getId() {
 		return id;

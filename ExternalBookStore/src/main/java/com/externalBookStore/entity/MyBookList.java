@@ -15,12 +15,10 @@ public class MyBookList {
 	private String author;
 	private String price;
 	public MyBookList() {
-		super();
-		// TODO Auto-generated constructor stub
+ 		// TODO Auto-generated constructor stub
 	}
 	public MyBookList(int id, String name, String author, String price) {
-		super();
-		this.id = id;
+ 		this.id = id;
 		this.name = name;
 		this.author = author;
 		this.price = price;
